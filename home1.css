@@ -59,6 +59,15 @@ body {
     font-size: 16px;
     text-decoration: none;
 }
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800&display=swap');
+
+.logo {
+    font-family: 'Cinzel', serif;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: #ffffff;
+}
 /*---- responsive------------------------------------------------------------------------- */
 .menu-toggle, .close-btn {
     display: none;
@@ -98,18 +107,7 @@ body {
     }
     .navlink ul {
         flex-direction: column;
-
-   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
-.logo {
-    font-family: 'Playfair Display', 'Bodoni MT', 'Didot', 'Garamond', serif;
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 2.5px;
-    color: #ffffff; 
-    text-transform: uppercase;
-    user-select: none; 
-    cursor: default;
-}     
+    
         gap: 25px;
     }
     .navlink ul li a {
