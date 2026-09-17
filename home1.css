@@ -22,14 +22,6 @@ body {
     padding: 20px 80px;
     z-index: 10;
 }
-
-.logo img {
-    height: 50px;
-    width: auto;
-    object-fit: contain;
-    filter: grayscale(100%) contrast(500%) brightness(150%);
-    mix-blend-mode: screen;
-}
 .navlink ul {
     display: flex;
     list-style: none;
@@ -106,6 +98,18 @@ body {
     }
     .navlink ul {
         flex-direction: column;
+
+   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+.logo {
+    font-family: 'Playfair Display', 'Bodoni MT', 'Didot', 'Garamond', serif;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    color: #ffffff; 
+    text-transform: uppercase;
+    user-select: none; 
+    cursor: default;
+}     
         gap: 25px;
     }
     .navlink ul li a {
